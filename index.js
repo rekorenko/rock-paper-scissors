@@ -19,8 +19,10 @@ function getComputerChoice() {
 function playRound(player_choice, computer_choice) {
     let result;
 
+    // tie
+
     if (player_choice === computer_choice) {
-        result = 'tie'
+        result = `Tie! Player choose ${player_choice} and computer choose ${computer_choice}.` 
     }  
 
     // Paper vs Rock

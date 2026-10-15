@@ -71,6 +71,18 @@ button {
     font-weight: 600;
 }
 
+button:hover {
+    background-color: rgba(13, 27, 132, 0.90);
+}
+
+button:active {
+    background-color: rgba(13, 27, 132, 0.600);
+}
+
+button:disabled {
+    background-color: rgba(13, 27, 132, 0.650);
+}
+
 #replay-button {
     width: 342px;
 }

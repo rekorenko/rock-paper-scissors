@@ -8,7 +8,7 @@ body {
 
 .flex-wrap {
     display: flex;
-    height: 100vh;
+    height: 96vh;
     justify-content: center;
     align-items: center;
 }
@@ -35,7 +35,7 @@ body {
 
 #status {
     margin: 5%;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ body {
 .scoreboard div {
     border: 4px solid white;
     height: 180px;
-    width: 160px;
+    width: 250px;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ button {
     border: 0;
     color: white;
     height: 80px;
-    width: 110px;
+    width: 169.5px;
     font-weight: 600;
 }
 
@@ -84,7 +84,7 @@ button:disabled {
 }
 
 #replay-button {
-    width: 342px;
+    width: 520.5px;
 }
 
 footer {
